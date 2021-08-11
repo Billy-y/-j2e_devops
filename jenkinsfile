@@ -2,7 +2,7 @@ node {
 
     stage('clone') {
     
-        git credentialsId: 'github', url: 'git@gitlab.com:billal.yahiaoui.01/j2e_devops.git'
+        git credentialsId: 'github', url: 'git@github.com:Billy-y/-j2e_devops.git'
         
     }
     
